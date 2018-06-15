@@ -9,7 +9,7 @@ curl -L https://github.com/prometheus/node_exporter/releases/download/v0.16.0/$P
 tar xzvf $PACKAGE_NAME.tar.gz
 
 # Moving the executable to /usr/bin
-cp node_exporter-0.16.0.linux-amd64/node_exporter /usr/bin
+cp $PACKAGE_NAME/node_exporter /usr/bin
 
 # Marking it as executable
 chmod +x /usr/bin/node_exporter
